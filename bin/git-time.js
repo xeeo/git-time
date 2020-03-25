@@ -8,6 +8,7 @@ if (typeof argv.help == 'boolean' || typeof argv.h == 'boolean' || typeof argv._
   console.log('  -h, --help\toutput usage information')
   console.log('  --max\t\tmaximum time in minutes between two consecultive commits. Default: 90')
   console.log('  --min\t\tminimum time in minutes for the start commit. Default: 25')
+  console.log('  --since\t\tsince when do you want to calculate time. No Default')
   return;
 }
 

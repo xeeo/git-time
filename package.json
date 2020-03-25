@@ -1,11 +1,11 @@
 {
   "name": "git-time",
-  "version": "1.0.4",
-  "description": "Measure time spent on a git repository",
-  "homepage": "https://github.com/vmf91/git-time#readme",
+  "version": "1.0.5",
+  "description": "Copied the repo from 'vmf91'. Measure time spent on a git repository",
+  "homepage": "https://github.com/xeeo/git-time#readme",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/vmf91/git-time"
+    "type": "git",
+    "url": "https://github.com/xeeo/git-time"
   },
   "main": "index.js",
   "scripts": {
