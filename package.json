@@ -1,5 +1,5 @@
 {
-  "name": "gittime",
+  "name": "@xeeo/gittime",
   "version": "1.0.5",
   "description": "Copied the repo from 'vmf91'. Measure time spent on a git repository",
   "homepage": "https://github.com/xeeo/git-time#readme",
