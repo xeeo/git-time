@@ -31,13 +31,18 @@ if (typeof argv.max === 'number') {
 }
 max *= 60
 
+let since = "";
+if (typeof argv.since === 'string') {
+  since = "--since='" + argv.since + "'"
+}
+
 exec(`ls ${dir}/.git`, function (err, data) {
   if (err) {
     console.log(`${dir} is not a valid Git directory`)
     return
   }
 
-  exec(`cd ${dir} && git log --pretty='format:%ct'`, function (err, data) {
+  exec(`cd ${dir} && git log ${since} --pretty='format:%ct'`, function (err, data) {
     if (err) {
       console.log(err)
       return
