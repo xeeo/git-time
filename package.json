@@ -1,5 +1,5 @@
 {
-  "name": "git-time",
+  "name": "gittime",
   "version": "1.0.5",
   "description": "Copied the repo from 'vmf91'. Measure time spent on a git repository",
   "homepage": "https://github.com/xeeo/git-time#readme",
@@ -18,7 +18,7 @@
     "spent"
   ],
   "bin": {
-    "git-time": "./bin/git-time.js"
+    "gittime": "./bin/git-time.js"
   },
   "preferGlobal": true,
   "author": "Victor Miranda Fernandes",
